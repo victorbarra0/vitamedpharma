@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VitaMed Pharma - Blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="marca">
+        <img src="img/logo.jpg" alt="Logo da VitaMed Pharma" />
+      </div>
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+      <nav class="navegacao">
+        <a href="index.html">HOME</a>
+        <a href="servicos.html">SERVIÇOS</a>
+        <a href="blog.html" class="ativo">BLOG</a>
+        <a href="sobre.html">NÓS</a>
+        <a href="contato.html">CONTATO</a>
+
+        <select name="idioma" id="seletor-idioma">
+          <option value="pt">PT</option>
+          <option value="en">EN</option>
+          <option value="es">ES</option>
+        </select>
+
+        <button class="botao-login">Login</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="secao-container">
+        <div class="conteudo-texto">
+          <h2>Nosso Blog</h2>
+          <p>
+            Acompanhe nossas novidades, artigos e insights sobre saúde, inovação
+            farmacêutica e qualidade de vida.
+          </p>
+        </div>
+      </section>
+
+      <!-- Lista de artigos -->
+      <section class="blog-container">
+        <article class="blog-card">
+          <img src="img/logo.jpg" alt="Imagem artigo 1" />
+          <h3>Avanços em Pesquisa Clínica</h3>
+          <p>
+            Descubra como a VitaMed Pharma está contribuindo para novas
+            descobertas no campo da pesquisa clínica.
+          </p>
+          <a href="#" class="blog-btn">Leia Mais</a>
+        </article>
+
+        <article class="blog-card">
+          <img src="img/logo.jpg" alt="Imagem artigo 2" />
+          <h3>Saúde Preventiva</h3>
+          <p>
+            Conheça nossas iniciativas de prevenção e cuidados que promovem
+            qualidade de vida em comunidades carentes.
+          </p>
+          <a href="#" class="blog-btn">Leia Mais</a>
+        </article>
+
+        <article class="blog-card">
+          <img src="img/logo.jpg" alt="Imagem artigo 3" />
+          <h3>Sustentabilidade na Indústria</h3>
+          <p>
+            Redução de resíduos e processos mais conscientes: veja como atuamos
+            em prol da sustentabilidade.
+          </p>
+          <a href="#" class="blog-btn">Leia Mais</a>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 VitaMed Pharma - Todos os direitos reservados</p>
+      <p>
+        Rua Abraham Lincoln, 139-87 - Guarulhos, SP | @vitamedpharma@gmail.com
+      </p>
+    </footer>
+    <!-- Botões Fixos de Acessibilidade -->
+    <div class="acessibilidade-fixed">
+      <button id="aumentar-fonte" title="Aumentar fonte">A+</button>
+      <button id="diminuir-fonte" title="Diminuir fonte">A-</button>
+      <button id="contraste" title="Alto contraste">☾</button>
+      <button id="voltar-topo" title="Voltar ao topo">↑</button>
+    </div>
+  </body>
+</html>

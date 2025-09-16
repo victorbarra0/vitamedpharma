@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VitaMed Pharma - Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="marca">
+        <img src="img/logo.jpg" alt="Logo da VitaMed Pharma" />
+      </div>
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+
+      <nav class="navegacao">
+        <a href="index.html">HOME</a>
+        <a href="servicos.html">SERVIÇOS</a>
+        <a href="blog.html">BLOG</a>
+        <a href="sobre.html">NÓS</a>
+        <a href="contato.html">CONTATO</a>
+
+        <select name="idioma" id="seletor-idioma">
+          <option value="pt">PT</option>
+          <option value="en">EN</option>
+          <option value="es">ES</option>
+        </select>
+
+        <button class="botao-login">Login</button>
+      </nav>
+    </header>
+    <main>
+      <section class="secao-container background-home">
+        <div class="conteudo-texto">
+          <h2>Cuidamos da sua saúde</h2>
+          <p>
+            Cuidamos da sua saúde com ciência e compromisso <br />
+            Medicamentos acessíveis, inovação em saúde e impacto social
+            positivo.
+          </p>
+        </div>
+      </section>
+      <!-- Impacto Social -->
+      <section class="secao-container">
+        <div class="conteudo-texto">
+          <h2>Impacto Social</h2>
+          <p>
+            Acreditamos que ciência também é compromisso social. Por isso,
+            investimos em programas de acesso a medicamentos, apoio à saúde
+            pública em comunidades carentes e sustentabilidade, com redução de
+            resíduos em nossos processos produtivos. Nosso impacto vai além da
+            saúde: ajudamos a criar um futuro mais consciente, humano e
+            equilibrado.
+          </p>
+        </div>
+      </section>
+
+      <!-- O que nos torna únicos -->
+      <section class="secao-container">
+        <div class="conteudo-texto">
+          <h2>O que nos torna únicos</h2>
+          <p>
+            O cuidado humano é o centro da nossa missão. Não produzimos apenas
+            medicamentos, mas soluções que transformam vidas. Nossa equipe alia
+            ciência, tecnologia e ética para criar produtos confiáveis e
+            acessíveis.
+          </p>
+        </div>
+        <div class="conteudo-imagem">
+          <img src="img/produtos.jpg" alt="Equipe VitaMed" />
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>&copy; 2025 VitaMed Pharma - Todos os direitos reservados</p>
+      <p>
+        Rua Abraham Lincoln, 139-87 - Guarulhos, SP | vitamedpharma@gmail.com
+      </p>
+    </footer>
+
+    <!-- Botões Fixos de Acessibilidade -->
+    <div class="acessibilidade-fixed">
+      <button id="aumentar-fonte" title="Aumentar fonte">A+</button>
+      <button id="diminuir-fonte" title="Diminuir fonte">A-</button>
+      <button id="contraste" title="Alto contraste">☾</button>
+      <button id="voltar-topo" title="Voltar ao topo">↑</button>
+    </div>
+  </body>
+</html>
