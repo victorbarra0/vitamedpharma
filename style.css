@@ -536,3 +536,91 @@ footer a:hover {
     width: 100%;
   }
 }
+
+/* Página de Artigo */
+.artigo-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.imagem-artigo {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.conteudo-artigo p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Página de Artigo: Saúde Preventiva */
+
+.artigo-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.imagem-artigo {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  background-color: #0288d1;
+  object-position: 75% 25%;
+}
+
+.conteudo-artigo p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Título da seção (já puxado do seu padrão) */
+.secao-container .conteudo-texto h2 {
+  font-size: 2em;
+  color: #0288d1;
+  margin-bottom: 10px;
+}
+
+/* Subtítulo ou descrição */
+.secao-container .conteudo-texto p {
+  font-size: 1.1em;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Página de Artigo - Leia Mais */
+.artigo-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.imagem-artigo {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  background-color: #0288d1;
+  object-position: 75% 25%;
+}
+
+.conteudo-artigo p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
